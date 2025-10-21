@@ -331,7 +331,7 @@ export default function Game({ currentView, setCurrentView }: GameProps) {
                     <div className="w-6 h-6 bg-[#f0b90b] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-black text-sm font-bold">1</span>
                     </div>
-                    <p>Press "🎰 Play" to spin the fruit wheel</p>
+                    <p>Press &quot;🎰 Play&quot; to spin the fruit wheel</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-[#f0b90b] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -343,7 +343,7 @@ export default function Game({ currentView, setCurrentView }: GameProps) {
                     <div className="w-6 h-6 bg-[#f0b90b] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-black text-sm font-bold">3</span>
                     </div>
-                    <p>Each fruit gives different points! 💎 = 50pts, 🍍 = 20pts, 💀 = You Lost!</p>
+                    <p>Each fruit gives different points! 💎 = 50USDT, 🍍 = 20USDT, 💀 = You Lost!</p>
                   </div>
                 </div>
               </div>

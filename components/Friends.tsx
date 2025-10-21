@@ -112,7 +112,7 @@ export default function Friends() {
   const inviteLink = botUsername
     ? `https://t.me/${process.env.NEXT_PUBLIC_BOT_USERNAME}/${process.env.NEXT_PUBLIC_APP_URL_SHORT_NAME}?startapp=kentId${userTelegramId || ""}`
     : "https://t.me/clicker_game_news";
-  const shareText = `Join me in ROLL DICE USDT: Tap, Earn, and Win! \n Let's play and earn together!`;
+  const shareText = `Join me in Fruit Cocktail - USDT: Tap, Earn, and Win! \n Let's play and earn together!`;
 
   const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(inviteLink)}`;
   const whatsappShareUrl = `https://wa.me/?text=${encodeURIComponent(shareText + " " + inviteLink)}`;

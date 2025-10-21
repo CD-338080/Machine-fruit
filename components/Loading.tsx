@@ -268,9 +268,12 @@ export default function Loading({ setIsInitialized, setCurrentView }: LoadingPro
           </div>
         </div>
 
-        <h1 className="text-3xl font-bold mb-4 text-center relative z-10">
-          <span className="text-white">USDT</span> <span className="text-[#f3ba2f]">ROLL</span> <span className="text-white">DICE</span>
+        <h1 className="text-3xl font-bold mb-1 text-center relative z-10">
+          <span className="text-white">FRUIT</span> <span className="text-[#f3ba2f]">SPINNER</span>
         </h1>
+        <p className="text-center text-white/80 text-sm mb-4 relative z-10">
+          Spin the fruits, chase jackpots, avoid the skull!
+        </p>
 
         {/* Progress bar */}
         <div className="w-64 h-2 bg-[#264653]/50 rounded-full mb-6 overflow-hidden relative z-10">
@@ -284,29 +287,25 @@ export default function Loading({ setIsInitialized, setCurrentView }: LoadingPro
         </div>
 
         <div className="flex items-center space-x-4 relative z-10">
-          {/* USDT Coin */}
+          {/* Animated fruits, themed to game */}
           <div className="w-10 h-10 relative">
             <div className="absolute inset-0 flex items-center justify-center animate-coin-flip">
-              <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-[#2a9d8f] font-bold text-xs border-2 border-[#f3ba2f]">
-                <span className="text-sm">₮</span>
+              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-2xl border-2 border-[#f3ba2f]">
+                <span>🍒</span>
               </div>
             </div>
           </div>
-          
-          {/* TRC-20 Coin */}
           <div className="w-10 h-10 relative">
             <div className="absolute inset-0 flex items-center justify-center animate-coin-flip-delay-1">
-              <div className="w-10 h-10 rounded-full bg-[#f3ba2f] flex items-center justify-center text-[#264653] font-bold text-xs border-2 border-white">
-                <span className="text-xs">USDT</span>
+              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-2xl border-2 border-[#f3ba2f]">
+                <span>🍍</span>
               </div>
             </div>
           </div>
-          
-          {/* USDT Coin */}
           <div className="w-10 h-10 relative">
             <div className="absolute inset-0 flex items-center justify-center animate-coin-flip-delay-2">
-              <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-[#2a9d8f] font-bold text-xs border-2 border-[#f3ba2f]">
-                <span className="text-sm">$</span>
+              <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-2xl border-2 border-[#f3ba2f]">
+                <span>💎</span>
               </div>
             </div>
           </div>

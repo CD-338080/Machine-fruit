@@ -60,7 +60,7 @@ function ClickerPage() {
             case 'settings':
                 return <Settings setCurrentView={setCurrentView} />;
             case 'mine':
-                return <Mine setCurrentView={setCurrentView} />;
+                return <Mine currentView={currentView} setCurrentView={setCurrentView} />;
             case 'friends':
                 return <Friends />;
             case 'earn':
